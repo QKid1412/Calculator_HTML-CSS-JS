@@ -1,0 +1,117 @@
+
+		#pic{
+			border: 1px solid white;
+			margin-left: auto;
+			margin-right: auto;
+			width: 1502px;
+			height: 682px;
+		}
+		#section{
+			border: 1px solid #f5eaeb;
+			height: 91.7%;
+			margin-left: 5%;
+			margin-right: 5%;
+			padding-left: 2.7%;
+			font-size: 22pt;
+			font-family: Arial;
+
+		}
+		#left{
+
+			background-color: #a7192f;
+			width: 5%;
+			height: 100%;
+			float: left;
+			border-right-color: #911a2e;
+
+		}
+		#right{
+
+			background-color: #a7192f;
+			width: 5%;
+			height: 100%;
+			float: right;
+			border-left-color: #911a2e;
+		}
+		#top{
+
+			background-color: #a7192f;
+			margin-top: 2px;
+			height: 3.5%;
+			float: top;
+		}
+		#title{
+			border: 1px solid transparent;
+			margin-top: 5%;
+			width: 20%;
+			height: auto;
+			background-color: #fdfdfd;
+			font-weight: normal;
+		}
+		#activities{
+			border: 1px solid #e3e8eb;
+			margin-top: 2%;
+			margin-bottom: 2.2%;
+			width: 72%;
+			height: 75%;
+			background-color: #e9eef1;
+		}
+		#bottom{
+
+			background-color: #a7192f;
+			float: bottom;
+			height: 4.8%;
+		}
+		#redtitle{
+			border: 1px solid transparent;
+			margin-left: 1.2%;
+			margin-top: 2.8%;
+			margin-bottom: 2%;
+			font-size: 15pt;
+			font-family: calibri;
+			color: #b12340;
+		}
+		#description{
+			border: 1px solid transparent;
+			margin-left: 1.2%;
+			margin-top: 2.5%;
+			margin-bottom: 3%;
+			font-size: 12pt;
+			font-family: cambria;
+		}
+		table,th,td{
+			width: 97.6%;
+			margin-left: 1.2%;
+			margin-right: 1.2%;
+			border: 1px solid #b0b2b1;
+			border-collapse: collapse;
+		}
+		th,td{
+			width: 25%;
+		}
+		th{
+			background-color: #dddddd;
+			font-family: arial;
+			font-size: 11pt;
+			text-align: left;
+			padding-left: 0.8%;
+			height: 22px;
+		}
+		td{
+			padding-left: 0.8%;
+			font-size: 12pt;
+			font-family: cambria;
+			height: 39px;
+		}
+		.box{
+			vertical-align: center;
+			height: 25px;
+			width: 40%;
+			margin-top:  8px;
+			background-color: white;
+			border: none;
+			box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24);
+		}
+		#t6{
+			vertical-align: bottom;
+		}

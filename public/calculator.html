@@ -3,57 +3,9 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Calculator</title>
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="calculator.css">
 	<style>
 
-		#pic{
-			border: 1px solid white;
-			margin-left: auto;
-			margin-right: auto;
-			width: 1252px;
-			height: 558px;
-		}
-		#section{
-			border: 5px solid black;
-			margin-top: 53px;
-			margin-bottom: 26px;
-			margin: 30px;
-			height: 25px;
-			padding-left: 30px;
-			font-size: 18pt;
-			font-family: Arial;
-			padding-left: 30px;
-		}
-		#left{
-			background-color: #a7192f;
-			width: 65px;
-			height: 558px;
-			float: left;
-			border-right-color: #911a2e;
-			border-right-style: outset;
-		}
-		#right{
-			background-color: #a7192f;
-			width: 65px;
-			height: 558px;
-			float: right;
-			border-left-color: #911a2e;
-		}
-		#top{
-			background-color: #a7192f;
-			margin-top: 2px;
-			height: 19px;
-			float: top;
-		}
-		#title{
-			background-color: #fdfdfd;
-		}
-		#bottom{
-			background-color: #a7192f;
-			bottom: 0;
-			margin: 0;
-			height: 27px;
-		}
 	</style>
 </head>
 <body>
@@ -62,8 +14,49 @@
 		<div id="right">right</div>
 		<div id="top">top</div>
 		<div id="section">
-
 			<div id= "title">Grade Calculator</div>
+			<div id= "activities">
+				<div id="redtitle"><b>Activities</b></div>
+				<div id="description">Give grades to the numeric activities:</div>
+				<table>
+					<tr id="t1">
+						<th>Name</th>
+						<th>Short Name</th>
+						<th>Grade</th>
+						<th>Percentage</th>
+					</tr>
+					<tr id="t2">
+						<td>Activity 1</td>
+						<td>A1</td>
+						<td><input type="text" id="box1" class="box"> / <input type="text" id="box2" class="box"></td>
+						<td></td>
+					</tr>
+					<tr id="t3">
+						<td>Activity 2</td>
+						<td>A2</td>
+						<td><input type="text" id="box3" class="box"> / <input type="text" id="box4" class="box"></td>
+						<td></td>
+					</tr>
+					<tr id="t4">
+						<td>Activity 3</td>
+						<td>A3</td>
+						<td><input type="text" id="box5" class="box"> / <input type="text" id="box6" class="box"></td>
+						<td></td>
+					</tr>
+					<tr id="t5">
+						<td>Activity 4</td>
+						<td>A4</td>
+						<td><input type="text" id="box7" class="box"> / <input type="text" id="box8" class="box"></td>
+						<td></td>
+					</tr>
+					<tr id="t6">
+						<td><b>TOTAL</b></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
 
 		</div>
 		<div id="bottom">bottom</div>
