@@ -1,12 +1,18 @@
-Part(A):
+### CMPT 276 Asgn1 README.md file
+#   Student: Amber Qi
+#   Student_ID: 301269563
+#   Date: 2016-5-24
+#####
 
+Part(A):
 HTML&CSS: used [box-shadow] and [text-shadow] to approach the given picture.
 
 
 Creativity in Part(B):
 
-
 JAVASCRIPT:
+
+[onmouseover] buttons change their backgroundColor, [onmouseout] change the color back.
 
 After input, click [CALCULATE] button to calculate.
 
