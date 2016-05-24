@@ -17,3 +17,7 @@ If not validate, output the information under the Percentage column.
 Used [alert] if some values cannot be used during calculating Mean and Average.
 
 Click [RESET] button to reset all inputs and outputs.
+
+[ANALYZATION] part. After calculation, if percentage is lower than 50%,
+[onmouseover] function can be triggered on smiley faces and changed to sad faces.
+(Note: the [Reset] function also reset all faces to smiley faces).

@@ -16,8 +16,8 @@
 			<div id= "activities">
 				<div id="redtitle"><b>Activities</b></div>
 				<div id="description">Give grades to the numeric activities:
-					<button  id="calc" class="buttontop" onclick="Calcpercentage(this)">CALCULATE</button>
-					<button id="reset" class="buttontop" onclick="Reset(this)">RESET</button>
+					<button  id="calc" class="buttontop" onclick="Calcpercentage(this)" onmouseover="ChangeButton(this)" onmouseout="ButtonBack(this)">CALCULATE</button>
+					<button id="reset" class="buttontop" onclick="Reset(this)" onmouseover="ChangeButton(this)" onmouseout="ButtonBack(this)">RESET</button>
 				</div>
 				<table>
 					<tr id="t1">
@@ -57,8 +57,14 @@
 						<td id="res"></td>
 					</tr>
 				</table>
-				<button  id="mean" class="button" onclick="CalcMean(this)">MEAN</button>
-				<button id="avg" class="button" onclick="CalcAvg(this)">AVERAGE</button>
+				<div id="analyze"><span id="span"><b>ANALYZATION</b></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								A1: <img id="img1" class="img" src="Smiley.jpg" width="20" height="20" onmouseover="face1(this)"></img>
+								A2: <img id="img2" class="img" src="Smiley.jpg" width="20" height="20" onmouseover="face2(this)"></img>
+								A3: <img id="img3" class="img" src="Smiley.jpg" width="20" height="20" onmouseover="face3(this)"></img>
+								A4: <img id="img4" class="img" src="Smiley.jpg" width="20" height="20" onmouseover="face4(this)"></img>
+				</div>
+				<button  id="mean" class="button" onclick="CalcMean(this)" onmouseover="ChangeButton(this)" onmouseout="ButtonBack(this)">MEAN</button>
+				<button id="avg" class="button" onclick="CalcAvg(this)" onmouseover="ChangeButton(this)" onmouseout="ButtonBack(this)">AVERAGE</button>
 			</div>
 
 		</div>

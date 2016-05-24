@@ -155,4 +155,57 @@ function Reset(elementName){
 	document.getElementById("p3").innerHTML = "";
 	document.getElementById("p4").innerHTML = "";
 	document.getElementById("res").innerHTML = "";
+	document.getElementById("img1").src="Smiley.jpg";
+	document.getElementById("img2").src="Smiley.jpg";
+	document.getElementById("img3").src="Smiley.jpg";
+	document.getElementById("img4").src="Smiley.jpg";
+}
+
+function ChangeButton(x){
+	x.style.backgroundColor = "#150307";
+}
+
+function ButtonBack(x){
+	x.style.backgroundColor = "#b2191b";
+}
+
+function face1(img){
+	var num1 = document.getElementById("box1").value;
+	var den1 = document.getElementById("box2").value;
+	var res1 = parseFloat(num1/den1);
+	if(res1<0.5){
+		img.src="Sad.jpg";
+	}else{
+		img.src="Smiley.jpg";
+	}
+}
+function face2(img){
+	var num2 = document.getElementById("box3").value;
+	var den2 = document.getElementById("box4").value;
+	var res2 = parseFloat(num2/den2);
+	if(res2<0.5){
+		img.src="Sad.jpg";
+	}else{
+		img.src="Smiley.jpg";
+	}
+}
+function face3(img){
+	var num3 = document.getElementById("box5").value;
+	var den3 = document.getElementById("box6").value;
+	var res3 = parseFloat(num3/den3);
+	if(res3<0.5){
+		img.src="Sad.jpg";
+	}else{
+		img.src="Smiley.jpg";
+	}
+}
+function face4(img){
+	var num4 = document.getElementById("box7").value;
+	var den4 = document.getElementById("box8").value;
+	var res4 = parseFloat(num4/den4);
+	if(res4<0.5){
+		img.src="Sad.jpg";
+	}else{
+		img.src="Smiley.jpg";
+	}
 }
