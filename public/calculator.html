@@ -3,21 +3,22 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Calculator</title>
-	<link rel="stylesheet" href="calculator.css">
-	<style>
-
-	</style>
+	<link rel="stylesheet" href="calculator.css" type="text/css">
+	<script src="calculator.js" type="text/javascript"></script>
 </head>
 <body>
 	<div id="pic">
-		<div id="left">left</div>
-		<div id="right">right</div>
-		<div id="top">top</div>
+		<div id="left"></div>
+		<div id="right"></div>
+		<div id="top"></div>
 		<div id="section">
 			<div id= "title">Grade Calculator</div>
 			<div id= "activities">
 				<div id="redtitle"><b>Activities</b></div>
-				<div id="description">Give grades to the numeric activities:</div>
+				<div id="description">Give grades to the numeric activities:
+					<button  id="calc" class="buttontop" onclick="Calcpercentage(this)">CALCULATE</button>
+					<button id="reset" class="buttontop" onclick="Reset(this)">RESET</button>
+				</div>
 				<table>
 					<tr id="t1">
 						<th>Name</th>
@@ -29,42 +30,44 @@
 						<td>Activity 1</td>
 						<td>A1</td>
 						<td><input type="text" id="box1" class="box"> / <input type="text" id="box2" class="box"></td>
-						<td></td>
+						<td id="p1"></td>
 					</tr>
 					<tr id="t3">
 						<td>Activity 2</td>
 						<td>A2</td>
 						<td><input type="text" id="box3" class="box"> / <input type="text" id="box4" class="box"></td>
-						<td></td>
+						<td id="p2"></td>
 					</tr>
 					<tr id="t4">
 						<td>Activity 3</td>
 						<td>A3</td>
 						<td><input type="text" id="box5" class="box"> / <input type="text" id="box6" class="box"></td>
-						<td></td>
+						<td id="p3"></td>
 					</tr>
 					<tr id="t5">
 						<td>Activity 4</td>
 						<td>A4</td>
 						<td><input type="text" id="box7" class="box"> / <input type="text" id="box8" class="box"></td>
-						<td></td>
+						<td id="p4"></td>
 					</tr>
 					<tr id="t6">
 						<td><b>TOTAL</b></td>
 						<td></td>
 						<td></td>
-						<td></td>
+						<td id="res"></td>
 					</tr>
 				</table>
+				<button  id="mean" class="button" onclick="CalcMean(this)">MEAN</button>
+				<button id="avg" class="button" onclick="CalcAvg(this)">AVERAGE</button>
 			</div>
 
 		</div>
-		<div id="bottom">bottom</div>
+		<div id="bottom"></div>
 	</div>
 
 
 
 
-
+	<script src="calculator.js" type="text/javascript"></script>
 </body>
 </html>

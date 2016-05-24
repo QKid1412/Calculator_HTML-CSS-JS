@@ -7,7 +7,7 @@
 			height: 682px;
 		}
 		#section{
-			border: 1px solid #f5eaeb;
+			border: 1px solid #7f2432;
 			height: 91.7%;
 			margin-left: 5%;
 			margin-right: 5%;
@@ -23,7 +23,7 @@
 			height: 100%;
 			float: left;
 			border-right-color: #911a2e;
-
+			box-shadow: 8px 0px 7px -4px #7f2432;
 		}
 		#right{
 
@@ -32,15 +32,18 @@
 			height: 100%;
 			float: right;
 			border-left-color: #911a2e;
+			box-shadow: -8px 0px 7px -4px #7f2432;
 		}
 		#top{
-
+			border-bottom-color: #911a2e;
 			background-color: #a7192f;
 			margin-top: 2px;
 			height: 3.5%;
 			float: top;
+			box-shadow: 0px 8px 7px -4px #7f2432;
 		}
 		#title{
+			text-shadow: 1px 1px 1px #bcbcbc;
 			border: 1px solid transparent;
 			margin-top: 5%;
 			width: 20%;
@@ -104,14 +107,42 @@
 			height: 39px;
 		}
 		.box{
+			text-align: center;
 			vertical-align: center;
 			height: 25px;
 			width: 40%;
 			margin-top:  8px;
 			background-color: white;
 			border: none;
-			box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24);
+			box-shadow: 0 1px 1px 1px rgba(0,0,0,0.24);
 		}
 		#t6{
 			vertical-align: bottom;
+		}
+		.button{
+			font-size: 10pt;
+			color: #ffd3dd;
+			border: none;
+			border-radius: 5px;
+			vertical-align: center;
+			height: 30px;
+			width: 9%;
+			margin-top: 6%;
+			float: right;
+			margin-right: 1.8%;
+			background-color: #b2191b;
+			text-shadow: 1px 1px 1px #bcbcbc;
+		}
+		.buttontop{
+			font-size: 10pt;
+			color: #ffd3dd;
+			border: none;
+			border-radius: 5px;
+			vertical-align: center;
+			height: 30px;
+			width: 9.5%;
+			float: right;
+			margin-right: 1.8%;
+			background-color: #b2191b;
+			text-shadow: 1px 1px 1px #bcbcbc;
 		}
