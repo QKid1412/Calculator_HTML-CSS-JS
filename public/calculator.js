@@ -1,4 +1,7 @@
-
+/*CMPT276 Assignment #1
+	Name: Qingyun(Amber) Qi
+	ID: 301269563
+*/
 
 function checknum(x){
 	if(isNaN(x) || x == ''){
@@ -57,7 +60,7 @@ function CalcMean(elementName){
 		percentage += parseFloat(per1);
 		countvalid ++;
 	}else {
-		alert("Activity 1 will be omitted")
+		alert("Activity 1 will be omitted");
 	}
 	var num2 = document.getElementById("box3").value;
 	var den2 = document.getElementById("box4").value;
@@ -66,7 +69,7 @@ function CalcMean(elementName){
 		percentage += parseFloat(per2);
 		countvalid ++;
 	}else {
-		alert("Activity 2 will be omitted")
+		alert("Activity 2 will be omitted");
 	}
 	var num3 = document.getElementById("box5").value;
 	var den3 = document.getElementById("box6").value;
@@ -75,7 +78,7 @@ function CalcMean(elementName){
 		percentage += parseFloat(per3);
 		countvalid ++;
 	}else {
-		alert("Activity 3 will be omitted")
+		alert("Activity 3 will be omitted");
 	}
 	var num4 = document.getElementById("box7").value;
 	var den4 = document.getElementById("box8").value;
@@ -84,7 +87,7 @@ function CalcMean(elementName){
 		percentage += parseFloat(per4);
 		countvalid ++;
 	}else {
-		alert("Activity 4 will be omitted")
+		alert("Activity 4 will be omitted");
 	}
 	if(checkden(countvalid)){
 		document.getElementById("res").innerHTML= (100*parseFloat(percentage)/countvalid).toFixed(2) + "%";
@@ -92,4 +95,64 @@ function CalcMean(elementName){
 		alert("No usable values");
 	}
 
+}
+
+
+function CalcAvg(elementName){
+	var sumnum = 0;
+	var sumden = 0;
+	var num1 = document.getElementById("box1").value;
+	var den1 = document.getElementById("box2").value;
+	if( checknum(num1) && checkden(den1)) {
+		sumnum += parseInt(num1);
+		sumden += parseInt(den1);
+	}else {
+		alert("Activity 1 will be omitted");
+	}
+	var num2 = document.getElementById("box3").value;
+	var den2 = document.getElementById("box4").value;
+	if( checknum(num2) && checkden(den2)) {
+		sumnum += parseInt(num2);
+		sumden += parseInt(den2);
+	}else {
+		alert("Activity 2 will be omitted");
+	}
+	var num3 = document.getElementById("box5").value;
+	var den3 = document.getElementById("box6").value;
+	if( checknum(num3) && checkden(den3)) {
+		sumnum += parseInt(num3);
+		sumden += parseInt(den3);
+	}else {
+		alert("Activity 3 will be omitted");
+	}
+	var num4 = document.getElementById("box7").value;
+	var den4 = document.getElementById("box8").value;
+	if( checknum(num4) && checkden(den4) ) {
+		sumnum += parseInt(num4);
+		sumden += parseInt(den4);
+	}else {
+		alert("Activity 4 will be omitted");
+	}
+	if(checkden(sumden)){
+
+		document.getElementById("res").innerHTML= (100*parseInt(sumnum)/parseInt(sumden)).toFixed(2) + "%";
+	}else{
+		alert("No usable values");
+	}
+}
+
+function Reset(elementName){
+	document.getElementById("f1").reset();
+	document.getElementById("f2").reset();
+	document.getElementById("f3").reset();
+	document.getElementById("f4").reset();
+	document.getElementById("f5").reset();
+	document.getElementById("f6").reset();
+	document.getElementById("f7").reset();
+	document.getElementById("f8").reset();
+	document.getElementById("p1").innerHTML = "";
+	document.getElementById("p2").innerHTML = "";
+	document.getElementById("p3").innerHTML = "";
+	document.getElementById("p4").innerHTML = "";
+	document.getElementById("res").innerHTML = "";
 }
