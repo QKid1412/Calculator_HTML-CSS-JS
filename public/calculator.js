@@ -161,13 +161,13 @@ function Reset(elementName){
 	document.getElementById("img4").src="Smiley.jpg";
 }
 
-function ChangeButton(x){
+/*function ChangeButton(x){
 	x.style.backgroundColor = "#150307";
 }
 
 function ButtonBack(x){
 	x.style.backgroundColor = "#b2191b";
-}
+}*/
 
 function face1(img){
 	var num1 = document.getElementById("box1").value;

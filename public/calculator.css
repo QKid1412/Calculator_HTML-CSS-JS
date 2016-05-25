@@ -167,6 +167,15 @@
 			background-color: #b2191b;
 			text-shadow: 1px 1px 1px #bcbcbc;
 		}
+		.button:hover {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+		background-color: white;
+    color: black;
+    border: 2px solid #ae170f;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+
 		.buttontop{
 			font-size: 10pt;
 			color: #ffd3dd;
@@ -179,4 +188,12 @@
 			margin-right: 1.8%;
 			background-color: #b2191b;
 			text-shadow: 1px 1px 1px #bcbcbc;
+		}
+		.buttontop:hover {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+		background-color: white;
+    color: black;
+    border: 2px solid #ae170f;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 		}

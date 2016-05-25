@@ -1,68 +1,29 @@
-# ruby-getting-started
+### CMPT 276 Asgn1 README.md file
+#   Student: Amber Qi
+#   Student_ID: 301269563
+#   Date: 2016-5-24
+#####
 
-A barebones Rails app, which can easily be deployed to Heroku.
+Part(A):
+HTML&CSS: used [box-shadow] and [text-shadow] to approach the given picture.
 
-This application support the [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby) article - check it out.
 
-## Running Locally
+Creativity in Part(B):
 
-Make sure you have Ruby installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+JAVASCRIPT:
 
-```sh
-$ git clone git@github.com:heroku/ruby-getting-started.git
-$ cd ruby-getting-started
-$ bundle install
-$ bundle exec rake db:create db:migrate
-$ heroku local
-```
+[onmouseover] buttons change their backgroundColor, [onmouseout] change the color back.
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+After input, click [CALCULATE] button to calculate.
 
-## Deploying to Heroku
+Used functions [checknum(),checkden()]to Check the validation of input during calculation.
+(check numerator and denominator separately since denominator != 0).
+If not validate, output the information under the Percentage column.
 
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku run rake db:migrate
-$ heroku open
-```
+Used [alert] if some values cannot be used during calculating Mean and Average.
 
-or
+Click [RESET] button to reset all inputs and outputs.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Docker
-
-The app can be run and tested using the [Heroku Docker CLI plugin](https://devcenter.heroku.com/articles/introduction-local-development-with-docker).
-
-Make sure the plugin is installed:
-
-    heroku plugins:install heroku-docker
-
-Configure Docker and Docker Compose:
-
-    heroku docker:init
-
-And run the app locally:
-
-    docker-compose up web
-
-The app will now be available on the Docker daemon IP on port 8080.
-
-To work with the local database and do migrations, you can open a shell:
-
-    docker-compose run shell
-    bundle exec rake db:migrate
-
-You can also use Docker to release to Heroku:
-
-    heroku create
-    heroku docker:release
-    heroku open
-
-## Documentation
-
-For more information about using Ruby on Heroku, see these Dev Center articles:
-
-- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
-
+[ANALYZATION] part. After calculation, if percentage is lower than 50%,
+[onmouseover] function can be triggered on smiley faces and changed to sad faces.
+(Note: the [Reset] function also reset all faces to smiley faces).
