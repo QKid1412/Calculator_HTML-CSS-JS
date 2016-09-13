@@ -1,8 +1,7 @@
-### CMPT 276 Asgn1 README.md file
-#   Student: Amber Qi
-#   Student_ID: 301269563
-#   Date: 2016-5-24
-#####
+
+My first html/css/js code piece. The assignment was to recover a given picture.
+Date: 2016-5-24
+
 
 Part(A):
 HTML&CSS: used [box-shadow] and [text-shadow] to approach the given picture.
